@@ -3,3 +3,28 @@
 @tailwind utilities;
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sofia&display=swap');
+
+
+.section-title{
+    @apply text-base md:text-lg sm:text-xl text-yellow-400 font-roboto;
+}
+.section-subtitle{
+    @apply text-2xl md:text-4xl sm:text-3xl mt-2 font-bold text-zinc-300;
+}
+.section-text{
+    @apply text-zinc-400 my-2 text-sm  md:w-[450px] mx-auto;
+}
+
+.display-flex{
+   @apply flex justify-center gap-3 mt-10 flex-wrap 
+}
+
+.project-card{
+    @apply w-80 h-64 text-center overflow-hidden hover:scale-105 transition duration-300 rounded-md shadow-md shadow-zinc-900;
+}
+
+.skills-card{
+    @apply bg-zinc-800 p-10 w-48 h-36 text-center hover:scale-105 transition duration-300 shadow-md shadow-zinc-900 rounded-md;
+}
+

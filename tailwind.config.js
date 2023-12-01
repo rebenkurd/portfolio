@@ -5,9 +5,12 @@ module.exports = {
   ],
   theme: {
     fontFamily:{
-      'roboto':['Roboto', 'sans-serif']
+      'roboto':['Roboto', 'sans-serif'],
+      'sofia':['Sofia', 'cursive']
     },
-    extend: {},
+    extend: {
+
+    },
   },
   plugins: [],
 }
