@@ -5,7 +5,7 @@ class AboutMe extends Component {
     return (
       <Fragment>
 
-      <div className="bg-zinc-700 h-full p-20">
+      <div className="bg-zinc-700 h-full p-20" id='AboutMe'>
       <div className='text-center'>
               <h5 className='section-title'>About Me
               </h5>

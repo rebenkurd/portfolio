@@ -10,7 +10,7 @@ class ContactMe extends Component {
     return (
         <Fragment>
 
-        <div className="bg-zinc-800 h-full p-20">
+        <div className="bg-zinc-800 h-full p-20" id='Contact'>
         <div className='text-center'>
                 <h5 className='text-md md:text-lg sm:text-xl text-yellow-400 font-roboto'>Contacts
                 </h5>

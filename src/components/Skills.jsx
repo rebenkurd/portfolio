@@ -8,7 +8,7 @@ class Skills extends Component {
     return (
       <Fragment>
 
-        <div className="bg-zinc-700 h-full p-20">
+        <div className="bg-zinc-700 h-full p-20" id='Skills'>
         <div className='text-center'>
                 <h5 className='section-title'>Skills
                 </h5>
